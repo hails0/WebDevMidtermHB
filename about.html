@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>about</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            <h1 class="textlogo">Pancake De Lira</h1>
+            <h2>Web Developer & Best Guinea Pig</h2>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+
+        <div id="container">
+            <div id="main"> 
+                <h2>About Me</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vulputate 
+                    purus placerat lorem viverra ultrices. Nulla vulputate leo magna, at 
+                    pellentesque risus. Faucibus sit amet. Quisque sed tincidunt purus, 
+                    nec dignissim ipsum. Praesent malesuada libero neque, quis dignissim 
+                    lorem hendrerit quis. Phasellus sed tellus id orci aliquet mattis. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada 
+                    fames ac turpis egestas. Suspendisse consectetur felis lorem, at cursus 
+                    nulla mollis et.
+                </p>
+                <p> 
+                    Quisque a viverra sem. Suspendisse cursus cursus nibh, eu sollicitudin 
+                    risus pharetra nec. Nam eget eros vulputate, imperdiet ex nec, eleifend
+                     mauris. In tincidunt, odio vel porta vehicula, ligula nibh congue nibh, 
+                    eu viverra dui nibh sed urna. Vestibulum egestas, nulla ac tempus mollis, 
+                    lorem dui auctor metus, et pellentesque dolor justo placerat massa. Nulla 
+                    ac ullamcorper odio. Maecenas tincidunt felis quis diam gravida, eget imperdiet 
+                    est aliquet. Quisque quis est sed erat dignissim dictum.
+                </p>
+                <p>
+                    Aliquam ac nulla id metus sollicitudin consectetur nec a erat. Pellentesque sed 
+                    viverra dolor, et viverra nunc. Integer egestas consectetur hendrerit. Praesent 
+                    aliquet a tortor a aliquet. Integer laoreet justo in ipsum iaculis efficitur. Curabitur 
+                    at velit et risus efficitur porta. Vestibulum porta venenatis ultrices. Etiam vitae mattis erat. 
+                    Nam tempor pulvinar sem quis scelerisque. Nam quis rhoncus tortor. In sit amet mi mi. Duis 
+                    iaculis elit ut ultricies fermentum. Mauris bibendum enim nunc, vel dapibus ligula viverra ut. 
+                    Ut leo justo, maximus sed nibh eu, scelerisque tincidunt mauris. 
+                </p>
+            </div>
+            <div id="aside">
+                <img class="aboutprofile" src="./resources/images/aboutImg.jpg" alt=“About Me Image of Pancake”>
+            </div>
+        </div>
+       
+    </body>
+</html>
+
+<!-- Conceptual Question
+
+Explain the flow of HTTP requests and responses that about.html would go through during a TCP connection. 
+
+First the user requests to view the webpage by either typing in the URL or clicking
+the URL. The browser then initates a TCP (Transmission Control Protocal)
+type connection. TCP dictates how data packets are transported from one machine
+to another. Then the web browser uses the DNS (Doman Name System) to lookup the IP
+address if it doesn't already have it to find the IP address associated with the domain
+name. It then uses the IP address to create a TCP connection to the web server. 
+Afterwards, it performs the HTML requests and responses. For example, to get the aboutImg.jpg
+the web browser first sends an HTTP request to ask for the about.html, and then responds with the html, 
+and secondly, asks for the aboutImg.jpg. Then, the server returns the image to the browser. When there are 
+no more requests and responses, it may close the TCP connection. 
+
+-->
